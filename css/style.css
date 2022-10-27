@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+    
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    div.geral{
+        max-width: 100%;
+        min-width: 300px;
+        max-height: 1555px;
+        min-height: 568px;
+        font-family:'Courier New', Courier, monospace;
+        background-image: linear-gradient(to bottom, #000031, #120a8f, #1d10e0);
+    }
+
+
+    div.resumo{
+        margin-top:70px;
+        max-width: 100%;
+        min-width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        color: white;
+    }
+
+    div.resumo p{
+        font-size:30pt;
+    }
+
+    div.resumo img{
+        max-width: 250px;
+        min-width: 50px;
+        max-height:250px;
+        min-height: 50px;
+        border-radius: 50px;
+        transition:0.9s;
+        user-select: none;
+    }
+
+    div.resumo img:hover{
+        transform: scale(1.1);
+    }
+
+    div.habilidades{
+        max-width:100%;
+        min-width: 300px;
+        max-height:300px;
+        min-height: 750px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    div.habilidades img{
+        width: 200px;
+        height: 200px;
+        margin-top: 50px;
+        transition: 0.9s;
+        user-select: none;
+    }
+
+    div.habilidades img:hover{
+        transform: scale(1.2);
+        opacity: 70%;
+    }
+
+    div.nome{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: auto;
+        height: auto;
+        margin-top: 300px;
+        color: white;
+    }
+
+
+    div.rodape{
+        background-color: #120a8f;
+        max-width: 100%;
+        min-width: 300px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
