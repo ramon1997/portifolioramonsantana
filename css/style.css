@@ -43,7 +43,7 @@
         transform: scale(1.1);
     }
 
-    div.habilidades, div.contato{
+    div.habilidades, div.contato, div.projetos{
         max-width:100%;
         min-width: 300px;
         max-height:300px;
@@ -84,6 +84,28 @@
         margin-top: 50px;
         transition: 0.9s;
         user-select: none;
+    }
+
+    div.card{
+        width: 300px;
+        color: white;
+        background-color: #000031;
+        padding: 50px;
+        border-radius: 50px;
+    }
+
+    div.card h2{
+        margin-bottom: 30px;
+    }
+
+    div.card p{
+        margin-bottom: 20px;
+    }
+
+    div.card a{
+        color: white;
+        text-decoration: underline;
+        margin-bottom: -10px;
     }
 
     div.rodape{
