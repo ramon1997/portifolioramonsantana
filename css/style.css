@@ -9,8 +9,6 @@
     div.geral{
         max-width: 100%;
         min-width: 300px;
-        max-height: 1555px;
-        min-height: 568px;
         font-family:'Courier New', Courier, monospace;
         background-image: linear-gradient(to bottom, #000031, #120a8f, #1d10e0);
     }
@@ -45,7 +43,7 @@
         transform: scale(1.1);
     }
 
-    div.habilidades{
+    div.habilidades, div.contato{
         max-width:100%;
         min-width: 300px;
         max-height:300px;
@@ -78,6 +76,14 @@
         height: auto;
         margin-top: 300px;
         color: white;
+    }
+
+    div.contato img{
+        width: 200px;
+        height: 200px;
+        margin-top: 50px;
+        transition: 0.9s;
+        user-select: none;
     }
 
     div.rodape{
