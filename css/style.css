@@ -4,6 +4,20 @@
     *{
         margin: 0px;
         padding: 0px;
+        scroll-behavior: smooth;
+    }
+
+    body::-webkit-scrollbar{
+        width: 15px;
+    }
+
+    body::-webkit-scrollbar-track{
+        background-image: linear-gradient(to bottom, #000031, #120a8f, #1d10e0);
+    }
+
+    body::-webkit-scrollbar-thumb{
+        background-image: linear-gradient(to bottom, #000031, #120a8f, #1d10e0);
+        border-radius: 20px;
     }
 
     div.geral{
@@ -92,6 +106,10 @@
         background-color: #000031;
         padding: 50px;
         border-radius: 50px;
+    }
+
+    div.card:hover{
+        background-image: linear-gradient(to top, #000031, #120a8f, #1d10e0);
     }
 
     div.card h2{
