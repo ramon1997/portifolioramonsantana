@@ -47,13 +47,6 @@
         margin-top: 5px;
     }
 
-    div.titulo1{
-        width: 100%;
-        display: flex;
-        font-family: 'Xanh Mono', monospace;
-        margin-top: 15px;
-    }
-
     div.banner{
         width: 99%;
         height: 200px;
